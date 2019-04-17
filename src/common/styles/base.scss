@@ -1,0 +1,27 @@
+/** Главная кнопка*/
+.btn-astra {
+    background-color: $color_main;
+    border: 1px solid $color_main;
+    color: $text-color_main;
+    transition: all ease 0.4s;
+}
+.btn-outline-astra{
+    background-color: transparent;
+    border: 1px solid $color_main;
+    color: black;
+    transition: all ease 0.4s;
+
+}
+.btn-outline-astra:hover{
+    background-color: $color_main;
+    color: $text-color_main;
+    transition: all ease 0.4s;
+}
+.btn-astra:hover{
+    background-color: $color_main_hover;
+    $border: 1px solid $color_main_hover;
+    color: $text-color_main;
+    transition: all ease 0.4s
+} 
+/** /Главная кнопка */
+/* Перезаписывает стандартные цвета bootstrap на свои */
