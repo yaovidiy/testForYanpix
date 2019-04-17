@@ -120,7 +120,7 @@ export class Exchange extends React.Component{
      * @memberof Exchange
      */
     updateRates(){
-        axios.get("http://data.fixer.io/api/latest?access_key=79d1974895107911a189b117a5bbd2a7")
+        axios.get("https://data.fixer.io/api/latest?access_key=79d1974895107911a189b117a5bbd2a7")
         .then( res =>{
             let state = this.state;
             let temp = [];
